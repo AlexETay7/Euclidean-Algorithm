@@ -8,7 +8,10 @@ class EuclideanAlg:
         print("The Euclidean algorithm is a way to find the greatest common divisor of two positive integers, a and b.")
         print("\n")
         self.get_user_input()
+        self.create_spreadsheet()
          
+    input_one = None
+    input_two = None
 
     # Gather user input method
     def get_user_input(self):
@@ -32,5 +35,12 @@ class EuclideanAlg:
                 
             except ValueError:
                 print("Please enter valid non-negative integers.")
+
+    # Create diagram of values method
+    def create_spreadsheet(self):
+        print("--------------------------------------")
+        print("x:  | y:  |")
+        print("    |     |")
+
 
 euclidean_instance = EuclideanAlg()
