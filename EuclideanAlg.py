@@ -21,7 +21,7 @@ class EuclideanAlg:
             
             for var in variables:
                     
-            # Applying error - handling method
+            # Applying error - handling method, there are issues here 
                     try:
                         # try converting to integer
                         int(var)
