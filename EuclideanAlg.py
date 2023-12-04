@@ -1,39 +1,36 @@
 
 class EuclideanAlg:
 
-    print("\n")
-    print("The Euclidean algorithm is a way to find the greatest common divisor of two positive integers, a and b.")
-    print("\n")
-
-    # Create a prompt user method
+    
+    # Create a main method that prompts user
     def __init__(self) -> None:
-         self.get_user_input()
+        print("\n")
+        print("The Euclidean algorithm is a way to find the greatest common divisor of two positive integers, a and b.")
+        print("\n")
+        self.get_user_input()
          
 
-    # Gather user input
+    # Gather user input method
     def get_user_input(self):
-        flag = False
-        while not flag:
-            inputOne = input("Enter a non-negative integer for your \"a\" value: ") 
-            inputTwo = input("Enter a non-negative integer for your \"b\" value: ")
-            variables = [inputOne, inputTwo]
-            print("\n")
-            
-            for var in variables:
-                    
-            # Applying error - handling method, there are issues here 
-                    try:
-                        # try converting to integer
-                        int(var)
+        while True:
+            try:
+                input_one = input("Enter a non-negative integer for your \"a\" value: ")
+                input_two = input("Enter a non-negative integer for your \"b\" value: ")
+                
+                # Check if both inputs are non-negative integers
+                if input_one.isdigit() and input_two.isdigit():
+                    input_one = int(input_one)
+                    input_two = int(input_two)
 
-                    except ValueError:
-                        print("Please enter a valid non-negative integer.")
-                        inputOne = input("Enter a non-negative integer for your \"a\" value: ") 
-                        inputTwo = input("Enter a non-negative integer for your \"b\" value: ")
-                        flag = True
-                        
-            # flag check
-            print("GCD(" + inputOne + ", " + inputTwo + ") = ")
-            break
-    
+                    # Check if both inputs are non-negative
+                    if input_one >= 0 and input_two >= 0:
+                        break
+                    else:
+                        print("Please enter non-negative integers.")
+                else:
+                    print("Please enter valid non-negative integers.")
+                
+            except ValueError:
+                print("Please enter valid non-negative integers.")
+
 euclidean_instance = EuclideanAlg()
