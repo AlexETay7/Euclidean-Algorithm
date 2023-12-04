@@ -6,7 +6,7 @@
 
 # OVERVIEW:
 
- A program that implements the Euclidean algorithm and outputs to the user a table in which the process for attaining the GCD(a, b) is shown. Inspired by my discrete math class. A demonstration of me teaching myself python.
+ A program that implements the Euclidean algorithm and outputs to the user a table in which the process for attaining the GCD(a, b) is shown. Inspired by my discrete math class. A demonstration of me teaching myself python. WORK IN PROGRESS, NOT FINISHED
 
 # INCLUDED FILES:
 
