@@ -4,29 +4,29 @@
 * Alex Taylor
 **************** 
 
-**OVERVIEW:**
+### **_OVERVIEW:_**
 
- A program that implements the Euclidean algorithm and outputs to the user a table in which the process for attaining the GCD(a, b) is shown. Inspired by my discrete math class. A demonstration of me teaching myself python. WORK IN PROGRESS, NOT FINISHED
+ A program that implements the Euclidean algorithm and outputs to the user a table in which the process for attaining the GCD(a, b) is shown. Inspired by my discrete math class. A demonstration of my teaching myself Python. WORK IN PROGRESS, NOT FINISHED
 
-**INCLUDED FILES:**
+### **_INCLUDED FILES:_**
 
  * EuclideanAlg.py - main file
  * README - this file
 
 
-**COMPILING AND RUNNING:**
+### **_COMPILING AND RUNNING:_**
 
 
 
-**PROGRAM DESIGN AND IMPORTANT CONCEPTS:**
+### **_PROGRAM DESIGN AND IMPORTANT CONCEPTS:_**
 
  
 
-**TESTING:**
+### **_TESTING:_**
 
 
 
-**DISCUSSION:**
+### **_DISCUSSION:_**
  
 
 
