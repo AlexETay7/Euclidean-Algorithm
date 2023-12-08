@@ -10,8 +10,6 @@ class EuclideanAlg:
         self.get_user_input()
         self.create_spreadsheet()
          
-    input_one = None
-    input_two = None
 
     # Gather user input method
     def get_user_input(self):
@@ -27,6 +25,8 @@ class EuclideanAlg:
 
                     # Check if both inputs are non-negative
                     if input_one >= 0 and input_two >= 0:
+                        self.a_value = input_one
+                        self.b_value = input_two
                         break
                     else:
                         print("Please enter non-negative integers.")
@@ -39,8 +39,8 @@ class EuclideanAlg:
     # Create diagram of values method
     def create_spreadsheet(self):
         print("--------------------------------------")
-        print("x:  | y:  |")
-        print("    |     |")
+        print(f"x: {self.a_value}| y: {self.b_value}|")
+        print("     |      |")
 
 
 euclidean_instance = EuclideanAlg()
