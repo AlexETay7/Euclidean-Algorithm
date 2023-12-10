@@ -41,6 +41,13 @@ class EuclideanAlg:
         print("--------------------------------------")
         print(f"x: {self.a_value}| y: {self.b_value}|")
         print("     |      |")
+        
+    def compute_gcd(self):
+        a, b = self.a_value, self.b_value
+        while b:
+            a, b = b, a % b
+        gcd = a
+        print(f"The Greatest Common Divisor (GCD) of {self.a_value} and {self.b_value} is: {gcd}")
 
 
 euclidean_instance = EuclideanAlg()
