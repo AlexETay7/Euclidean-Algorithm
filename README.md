@@ -22,9 +22,10 @@ If this does not work, do:
 $ python EuclideanAlg.py
 
 Once running, enter 2 non-negative integers and the program will do the rest!
+*Note that the '$' character is not actually typed, that's just to symbolize being in the terminal*
 
 ### ***PROGRAM DESIGN AND IMPORTANT CONCEPTS:***
-This program creates a spreadsheet-like representation of the Euclidean-Algorithm by calculating quotients, remainders, and in turn the GCD.
+This program creates a spreadsheet-like representation of the Euclidean algorithm by calculating quotients, remainders, and in turn the GCD.
  
 
 ### ***TESTING:***
