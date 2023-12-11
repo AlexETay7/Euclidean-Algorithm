@@ -9,6 +9,7 @@ class EuclideanAlg:
         print("\n")
         self.get_user_input()
         self.create_spreadsheet()
+        self.compute_gcd()
          
 
     # Gather user input method
@@ -42,12 +43,20 @@ class EuclideanAlg:
         print(f"x: {self.a_value}| y: {self.b_value}|")
         print("     |      |")
         
+    # Create rest of spreadsheet and compute GCD
     def compute_gcd(self):
         a, b = self.a_value, self.b_value
         while b:
-            a, b = b, a % b
-        gcd = a
-        print(f"The Greatest Common Divisor (GCD) of {self.a_value} and {self.b_value} is: {gcd}")
+            print("--------------------------------------")
+            q = a // b
+            r = a % b
+            print(f"x: {a}| y: {b}| q: {q}| r: {r}|")
+            print("     |      |")
 
+            a, b = b, r
+        gcd = a
+        print("--------------------------------------")
+        print(f"The Greatest Common Divisor (GCD) of {self.a_value} and {self.b_value} is: {gcd}")
+        print("\n")
 
 euclidean_instance = EuclideanAlg()
