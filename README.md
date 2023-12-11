@@ -6,7 +6,7 @@
 
 ### ***OVERVIEW:***
 
- A program that implements the Euclidean algorithm and outputs to the user a table in which the process for attaining the GCD(a, b) is shown. Inspired by my discrete math class. A demonstration of my teaching myself Python. WORK IN PROGRESS, NOT FINISHED
+A program that implements the Euclidean algorithm and outputs to the user a table in which the process for attaining the GCD(a, b) is shown. Inspired by my discrete math class. A demonstration of my teaching myself Python. 
 
 ### ***INCLUDED FILES:***
 
@@ -23,11 +23,11 @@
  
 
 ### ***TESTING:***
-
+Testing was done simply by running, tinkering, and then running again. No test class was created for this project.
 
 
 ### ***DISCUSSION:***
- 
+This program could be optimized by making it so the spreadsheet lines are symmetrical all the way across regardless of the size difference of a and b.
 
 
 
