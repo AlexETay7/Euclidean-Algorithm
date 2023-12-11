@@ -15,11 +15,16 @@ A program that implements the Euclidean algorithm and outputs to the user a tabl
 
 
 ### ***COMPILING AND RUNNING:***
+To run the program in a terminal, navigate to the directory where you have the repository downloaded and type the following command:
+$ python3 EuclideanAlg.py
 
+If this does not work, do:
+$ python EuclideanAlg.py
 
+Once running, enter 2 non-negative integers and the program will do the rest!
 
 ### ***PROGRAM DESIGN AND IMPORTANT CONCEPTS:***
-
+This program creates a spreadsheet-like representation of the Euclidean-Algorithm by calculating quotients, remainders, and in turn the GCD.
  
 
 ### ***TESTING:***
@@ -29,7 +34,4 @@ Testing was done simply by running, tinkering, and then running again. No test c
 ### ***DISCUSSION:***
 This program could be optimized by making it so the spreadsheet lines are symmetrical all the way across regardless of the size difference of a and b.
 
-
-
 ----------------------------------------------------------------------------
-
