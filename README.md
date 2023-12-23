@@ -29,9 +29,11 @@ Once running, enter 2 non-negative integers and the program will do the rest!
 This program creates a spreadsheet-like representation of the Euclidean algorithm by calculating quotients, remainders, and in turn the GCD (greatest common denominator).
 
 Here's a step-by-step explanation of the Euclidean Algorithm:
+
 **1. Start with two integers, a and b, where a is greater than or equal to b.**
 
    a >= b
+   
 **2. Divide a by b, and let r be the remainder.**
 
    a = bq + r
