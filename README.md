@@ -16,9 +16,11 @@ A program that implements the Euclidean algorithm and outputs to the user a tabl
 
 ### ***COMPILING AND RUNNING:***
 To run the program in a terminal, navigate to the directory where you have the repository saved and type the following command:
+
 $ python3 EuclideanAlg.py
 
 If this does not work, do:
+
 $ python EuclideanAlg.py
 
 Once running, enter 2 non-negative integers and the program will do the rest!
