@@ -17,6 +17,13 @@ A program that implements the Euclidean algorithm and outputs to the user a tabl
 ### ***COMPILING AND RUNNING:***
 To run the program in a terminal, navigate to the directory where you have the repository saved and type the following command:
 
+<pre>
+```bash
+$ npm install
+$ node app.js
+```
+</pre>
+
 $ python3 EuclideanAlg.py
 
 If this does not work, do:
