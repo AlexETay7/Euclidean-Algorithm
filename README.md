@@ -32,19 +32,19 @@ Here's a step-by-step explanation of the Euclidean Algorithm:
 
 **1. Start with two integers, a and b, where a is greater than or equal to b.**
 
-   a >= b
+   *a >= b*
    
 **2. Divide a by b, and let r be the remainder.**
 
-   a = bq + r
+   *a = bq + r*
    
 **3. If the remainder (r) is zero, then b is the GCD.**
 
-   GCD(a,b) = b
+   *GCD(a,b) = b*
    
 **4. If the remainder is not zero, repeat the process with b and r.**
 
-   GCD(a,b) = GCD(b,r)
+   *GCD(a,b) = GCD(b,r)*
    
 **5. Continue the process until the remainder (r) becomes 0.**
 
