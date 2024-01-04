@@ -1,5 +1,6 @@
 ****************
 * Project Euclidean Algorithm
+* Personal Project
 * 12/3/2023
 * Alex Taylor
 **************** 
