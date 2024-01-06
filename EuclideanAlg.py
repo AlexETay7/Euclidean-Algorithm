@@ -19,7 +19,7 @@ class EuclideanAlg:
                 input_one = input("Enter a non-negative integer for your \"a\" value: ")
                 input_two = input("Enter a non-negative integer for your \"b\" value: ")
                 
-                # Check if both inputs are non-negative integers
+                # Check if both inputs are integers
                 if input_one.isdigit() and input_two.isdigit():
                     input_one = int(input_one)
                     input_two = int(input_two)
